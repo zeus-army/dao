@@ -340,14 +340,6 @@ Contributions are welcome! Please:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
-
-- **Website**: [Coming Soon]
-- **Discord**: [Join Zeus Army](https://discord.gg/zeus)
-- **Twitter**: [@ZeusArmy](https://twitter.com/zeusarmy)
-- **Telegram**: [Zeus Army Chat](https://t.me/zeusarmy)
-- **Tally DAO**: [Coming Soon]
-
 ## ⚠️ Disclaimer
 
 This software is provided "as is", without warranty of any kind. Use at your own risk. The developers are not responsible for any losses incurred through the use of this software.
@@ -364,5 +356,3 @@ Smart contracts have been tested but not professionally audited. For production 
 ---
 
 **Built with ❤️ by the Zeus Army**
-
-For questions or support, join our [Discord](https://discord.gg/zeus)
