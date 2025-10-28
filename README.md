@@ -132,6 +132,8 @@ npx hardhat test test/WrappedZEUSVotes.test.js
 
 ## 📖 User Guide
 
+📚 **For detailed step-by-step instructions, see the [Complete User Guide](./docs/USER_GUIDE.md)**
+
 ### 1. Wrapping ZEUS Tokens
 
 To participate in governance, you need to wrap your ZEUS tokens:
