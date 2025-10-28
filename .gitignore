@@ -1,0 +1,37 @@
+# Hardhat
+node_modules
+cache
+artifacts
+typechain-types
+coverage
+coverage.json
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Misc
+*.tgz
+*.gz
+.solcover.js
+.history
+
+# Deployment artifacts (sensitive)
+deployments/.*.json
+
+# Keep deployment config template
+!deployments/.example.json
+
+# Wallets (NEVER commit!)
+.wallets/
+*.json
