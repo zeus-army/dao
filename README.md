@@ -214,16 +214,16 @@ A comprehensive security audit has been conducted. See [SECURITY_AUDIT.md](./SEC
 - ✅ No rug pull risk (ownership transferred to Timelock)
 - ✅ No upgrade attack possible (immutable)
 - ✅ 1:1 wrapping ratio maintained
-- ⚠️ ZEUS token has fee-on-transfer (23% buy, 25% sell)
-- ✅ wZEUS excluded from fees (verified on-chain)
+- ✅ ZEUS token has no transfer fees (0% buy/sell tax)
+- ✅ Configuration immutable (owner renounced)
 
-**Risk Level**: 🟡 **LOW** (safe for use)
+**Risk Level**: 🟢 **LOW** (safe for use)
 
 ### Known Considerations
 
-1. **Fee-on-Transfer**: ZEUS token has trading fees, but wZEUS contract is excluded
-2. **No Emergency Pause**: By design - immutability is prioritized over admin control
-3. **No Upgrade Path**: Contracts cannot be modified, even by DAO
+1. **No Emergency Pause**: By design - immutability is prioritized over admin control
+2. **No Upgrade Path**: Contracts cannot be modified, even by DAO
+3. **Hardcoded Decimals**: Set to 9 (verified to match ZEUS token)
 
 ## 📁 Repository Structure
 
@@ -316,15 +316,14 @@ await governor.castVote(proposalId, 1);
 ### ZEUS Token
 - **Total Supply**: 420,690,000,000,000 (420.69 Trillion)
 - **Decimals**: 9
-- **Taxes**: Buy 23%, Sell 25%
-- **Max Transaction**: 5.47 Trillion
+- **Transfer Fees**: 0% (no buy/sell tax)
 - **Contract**: Immutable (owner renounced)
 
 ### wZEUS Token
 - **Total Supply**: Dynamic (based on wrapped amount)
 - **Decimals**: 9 (matches ZEUS)
 - **Wrapping Ratio**: 1:1
-- **Fees**: None (excluded from ZEUS fees)
+- **Transfer Fees**: 0% (standard ERC20)
 - **Functionality**: ERC20 + Votes + Permit
 
 ## 🤝 Contributing
